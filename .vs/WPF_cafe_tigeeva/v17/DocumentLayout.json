@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\",
+  "WorkspaceRootPath": "C:\\WPF_cafe_tigeeva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\users\\tigee\\desktop\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\adminworkers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\waitercreateorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\waitercreateorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\waiterorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\waiterorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\adminworkers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\adminworkers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\users\\tigee\\desktop\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\users\\tigee\\desktop\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|c:\\wpf_cafe_tigeeva\\wpf_cafe_tigeeva\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B17E972B-C631-4A61-AF28-CD77977E4B46}|WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj|solutionrelative:wpf_cafe_tigeeva\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,28 +30,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF_cafe_tigeeva\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAMwBoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:05:24.736Z",
+              "DocumentIndex": 0,
+              "Title": "WaiterCreateOrderWindow.xaml",
+              "DocumentMoniker": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WaiterCreateOrderWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\WaiterCreateOrderWindow.xaml",
+              "ToolTip": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WaiterCreateOrderWindow.xaml",
+              "RelativeToolTip": "WPF_cafe_tigeeva\\WaiterCreateOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T17:54:45.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "WaiterOrderWindow.xaml",
+              "DocumentMoniker": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WaiterOrderWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\WaiterOrderWindow.xaml",
+              "ToolTip": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WaiterOrderWindow.xaml",
+              "RelativeToolTip": "WPF_cafe_tigeeva\\WaiterOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T17:50:11.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CookWindow.xaml",
+              "DocumentMoniker": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\CookWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\CookWindow.xaml",
+              "ToolTip": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\CookWindow.xaml",
+              "RelativeToolTip": "WPF_cafe_tigeeva\\CookWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T17:40:22.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminWorkers.xaml",
-              "DocumentMoniker": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\AdminWorkers.xaml",
+              "DocumentMoniker": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\AdminWorkers.xaml",
               "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\AdminWorkers.xaml",
-              "ToolTip": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\AdminWorkers.xaml",
+              "ToolTip": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\AdminWorkers.xaml",
               "RelativeToolTip": "WPF_cafe_tigeeva\\AdminWorkers.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-24T13:31:05.033Z",
@@ -51,11 +82,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF_cafe_tigeeva\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml",
+              "ToolTip": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\MainWindow.xaml",
               "RelativeToolTip": "WPF_cafe_tigeeva\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-24T12:52:42.686Z",

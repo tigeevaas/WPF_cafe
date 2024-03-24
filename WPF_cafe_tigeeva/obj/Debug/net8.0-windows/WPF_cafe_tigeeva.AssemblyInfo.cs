@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF_cafe_tigeeva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+770e5c09ab27740ce463ce64f7d5a146d616c06a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF_cafe_tigeeva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF_cafe_tigeeva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

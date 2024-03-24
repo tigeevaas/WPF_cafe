@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj": {}
+    "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj": {
+    "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj",
+        "projectUniqueName": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj",
         "projectName": "WPF_cafe_tigeeva",
-        "projectPath": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj",
+        "projectPath": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva.csproj",
         "packagesPath": "C:\\Users\\tigee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tigee\\Desktop\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\obj\\",
+        "outputPath": "C:\\WPF_cafe_tigeeva\\WPF_cafe_tigeeva\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tigee\\AppData\\Roaming\\NuGet\\NuGet.Config",

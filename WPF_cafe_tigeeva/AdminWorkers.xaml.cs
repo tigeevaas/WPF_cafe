@@ -28,5 +28,10 @@ namespace WPF_cafe_tigeeva
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

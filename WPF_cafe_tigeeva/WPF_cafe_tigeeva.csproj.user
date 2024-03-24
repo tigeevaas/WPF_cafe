@@ -10,12 +10,30 @@
     <Compile Update="AdminWorkers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CookWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WaiterCreateOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WaiterOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AdminWorkers.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CookWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WaiterCreateOrderWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WaiterOrderWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

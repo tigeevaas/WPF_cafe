@@ -1,0 +1,59 @@
+﻿<Window x:Class="WPF_cafe_tigeeva.CookWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_cafe_tigeeva"
+        mc:Ignorable="d"
+        Title="CookWindow" Height="800" Width="1000">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Заказы">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65*"/>
+                        <RowDefinition Height="61*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="26*"/>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="952*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.Column="2"><Run Language="ru-ru" Text="Анастасия Тигеева"/></TextBlock>
+                    <TextBlock FontSize="20" Foreground="#1159C5" HorizontalAlignment="Left" Margin="20,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.Column="2"><Run Language="ru-ru" Text="Повар"/></TextBlock>
+                    <GroupBox Grid.Column="2" Background="White" Header="Заказ №1" Margin="20,123,649,338" BorderBrush="#FF347FAC" Grid.RowSpan="2">
+                        <DataGrid Margin="10,15,43,0" Grid.ColumnSpan="3" Height="181" RenderTransformOrigin="0.506,0.557">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Наименование" Width="100"/>
+                                <DataGridTextColumn Header="Кол-во" Width="55"/>
+                                <DataGridTextColumn Header="Цена" Width="60"/>
+                            </DataGrid.Columns>
+                            
+                        </DataGrid>
+                    </GroupBox>
+                    <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="36,155,0,0" VerticalAlignment="Top" Width="120">
+                        <TextBlock>Принят</TextBlock>
+                        <TextBlock>Готовится</TextBlock>
+                        <TextBlock>Готов к выдаче</TextBlock>
+                    </ComboBox>
+                    <GroupBox Grid.Column="2" Background="White" Header="Заказ №2" Margin="363,123,306,338" BorderBrush="#FF347FAC" Grid.RowSpan="2">
+                        <DataGrid Margin="10,15,43,0" Grid.ColumnSpan="3" Height="181" RenderTransformOrigin="0.506,0.557">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Наименование" Width="100"/>
+                                <DataGridTextColumn Header="Кол-во" Width="55"/>
+                                <DataGridTextColumn Header="Цена" Width="60"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </GroupBox>
+                    <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="379,155,0,0" VerticalAlignment="Top" Width="120">
+                        <TextBlock><Run Text="Принят"/></TextBlock>
+                        <TextBlock><Run Text="Готовится"/></TextBlock>
+                        <TextBlock><Run Text="Готов к выдаче"/></TextBlock>
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

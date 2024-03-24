@@ -54,10 +54,11 @@
                         </DataGrid>
                     </GroupBox>
                     <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="36,155,0,0" VerticalAlignment="Top" Width="120">
-                        <TextBlock>Tom</TextBlock>
-                        <TextBlock>Bob</TextBlock>
+                        <TextBlock>Принят</TextBlock>
+                        <TextBlock>Готовится</TextBlock>
+                        <TextBlock>Готов к выдаче</TextBlock>
                     </ComboBox>
-                    <GroupBox Grid.Column="2" Background="White" Header="Заказ №2" Margin="367,123,302,338" BorderBrush="#FF347FAC" Grid.RowSpan="2">
+                    <GroupBox Grid.Column="2" Background="White" Header="Заказ №2" Margin="362,123,307,338" BorderBrush="#FF347FAC" Grid.RowSpan="2">
                         <DataGrid Margin="10,15,43,0" Grid.ColumnSpan="3" Height="181" RenderTransformOrigin="0.506,0.557">
                             <DataGrid.Columns>
                                 <DataGridTextColumn Header="Наименование" Width="100"/>
@@ -66,13 +67,29 @@
                             </DataGrid.Columns>
                         </DataGrid>
                     </GroupBox>
+                    <ComboBox Grid.Column="2" HorizontalAlignment="Left" Margin="378,155,0,0" VerticalAlignment="Top" Width="120">
+                        <TextBlock><Run Text="Принят"/></TextBlock>
+                        <TextBlock><Run Text="Готовится"/></TextBlock>
+                        <TextBlock><Run Text="Готов к выдаче"/></TextBlock>
+                    </ComboBox>
                 </Grid>
             </TabItem>
             <TabItem Header="Смены">
                 <Grid>
-                    <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.Column="2"><Run Language="ru-ru" Text="Анастасия Тигеева"/></TextBlock>
-                    <TextBlock FontSize="20" Foreground="#1159C5" HorizontalAlignment="Left" Margin="20,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.Column="2"><Run Language="ru-ru" Text="Администратор"/></TextBlock>
+                    <TextBlock FontSize="20" HorizontalAlignment="Left" Margin="63,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.ColumnSpan="5"><Run Language="ru-ru" Text="Анастасия Тигеева"/></TextBlock>
+                    <TextBlock FontSize="20" Foreground="#1159C5" HorizontalAlignment="Left" Margin="63,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Grid.ColumnSpan="5"><Run Language="ru-ru" Text="Администратор"/></TextBlock>
+                    <DataGrid Margin="63,165,533,317" Height="274" RenderTransformOrigin="0.479,0.534">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Id" Width="30"/>
+                            <DataGridTextColumn Header="ФИО" Width="250"/>
+                            <DataGridTextColumn Header="Должность" Width="120"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBlock FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="63,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263"><Run Text="Смена 11.03 08:00 -"/><Run Language="ru-ru" Text=" 00:00"/></TextBlock>
+                    <Button Content="Добавить смену" Background="#285EB2" Foreground="White" HorizontalAlignment="Left" Margin="63,463,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.143,0.029" Width="131" Height="28" Click="Button_Click"/>
                 </Grid>
+
+
             </TabItem>
         </TabControl>
 

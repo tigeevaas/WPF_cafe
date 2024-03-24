@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPF_cafe_tigeeva.WaiterCreateOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_cafe_tigeeva"
+        mc:Ignorable="d"
+        Title="WaiterCreateOrderWindow" Height="600" Width="600">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" FontSize="20" FontWeight="DemiBold" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Создание нового заказа"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" Margin="0,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Номер столика"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="259,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86"/>
+        <TextBlock HorizontalAlignment="Left" FontSize="12" FontWeight="DemiBold" Margin="249,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Количество гостей"/></TextBlock>
+        <ComboBox HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top" Width="84">
+            <TextBlock><Run Text="1"/></TextBlock>
+            <TextBlock><Run Text="2"/></TextBlock>
+            <TextBlock><Run Text="3"/></TextBlock>
+            <TextBlock><Run Text="4"/></TextBlock>
+
+        </ComboBox>
+        <DataGrid Margin="188,238,184,65" RenderTransformOrigin="0.479,0.534">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.138"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.353"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Наименование" Width="150"/>
+                <DataGridTextColumn Header="Количество" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="DemiBold" Margin="0,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Заказанные б"/><Run Text="люда"/></TextBlock>
+        <Button Content="Создать" Background="#285EB2" Foreground="White" HorizontalAlignment="Center" Margin="0,532,0,0" VerticalAlignment="Top" Width="100" Height="25" Click="Button_Click"/>
+
+    </Grid>
+</Window>
